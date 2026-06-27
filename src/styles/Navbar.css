@@ -1,0 +1,46 @@
+
+#navbar {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-bottom: 1.5vw;
+  padding-top: 1.5vw;
+  background-color: rgba(221, 221, 221);
+  height: 60px;
+}
+
+#links {
+  width: 60vw;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+img {
+  width: 50px;
+}
+
+@media screen and (min-width: 900px) {
+  #navbar {
+    height: 70px;
+  }
+  #links {
+    height: 70px;
+    width: 30vw;
+  }
+  img {
+    width: 70px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
